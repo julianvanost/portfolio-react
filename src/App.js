@@ -1,0 +1,39 @@
+import React from 'react'
+import Navbar from './components/Navbar'
+import Home from './views/Home'
+import About from './views/About'
+import Portfolio from './views/Portfolio'
+import Contact from './views/Contact'
+import './App.css'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect
+} from "react-router-dom"
+const App = () => {
+  return (
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/About'>
+            <About />
+          </Route>
+          <Route path='/portfolio'>
+            <Portfolio />
+          </Route>
+          <Route path='/contact'>
+            <Contact />
+          </Route>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+          <Redirect to="/" />
+        </Switch>
+      </Router>
+    </>
+  )
+}
+
+export default App
