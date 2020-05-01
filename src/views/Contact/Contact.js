@@ -30,9 +30,7 @@ const Contact = () => {
         <h1 className="heading col-12">
           Contact
         </h1>
-        <div className="col-12">
-          <hr></hr>
-        </div>
+
         <div className="col-12">
           <form>
             <div className="row">

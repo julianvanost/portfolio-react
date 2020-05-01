@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.8ed62b97.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.bb68fab2.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.bb68fab2.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.70e43ac6.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.70e43ac6.js.map",
+    "static/js/2.864e79dd.chunk.js": "/portfolio-react/static/js/2.864e79dd.chunk.js",
+    "static/js/2.864e79dd.chunk.js.map": "/portfolio-react/static/js/2.864e79dd.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "precache-manifest.31706bc69f002213fed8022283f7c406.js": "/portfolio-react/precache-manifest.31706bc69f002213fed8022283f7c406.js",
+    "service-worker.js": "/portfolio-react/service-worker.js",
+    "static/css/main.8ed62b97.chunk.css.map": "/portfolio-react/static/css/main.8ed62b97.chunk.css.map",
+    "static/js/2.864e79dd.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.864e79dd.chunk.js.LICENSE.txt",
+    "static/media/AbutrackLogo.png": "/portfolio-react/static/media/AbutrackLogo.e8ba8328.png",
+    "static/media/CartnerGolf.png": "/portfolio-react/static/media/CartnerGolf.e1c174aa.png",
+    "static/media/GraduationCertificate.pdf": "/portfolio-react/static/media/GraduationCertificate.9eb4c785.pdf",
+    "static/media/ci-logo.png": "/portfolio-react/static/media/ci-logo.3c3968d8.png",
+    "static/media/profilePicture.jpg": "/portfolio-react/static/media/profilePicture.0be9b6c2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70e43ac6.js",
+    "static/js/2.864e79dd.chunk.js",
+    "static/css/main.8ed62b97.chunk.css",
+    "static/js/main.bb68fab2.chunk.js"
+  ]
+}
