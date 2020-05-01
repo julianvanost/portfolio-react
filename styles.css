@@ -63,6 +63,8 @@ svg {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bg-dark {
@@ -81,7 +83,22 @@ svg {
   Verdana,
   sans-serif!important;
 }
-.logoCryp {
+.logoCrypit {
+  background-color: #ffffff00;
+  width: 5rem;
+  margin-top: 2vh;
+}
+
+.logoAmbutrack {
   background-color: #ffffff00;
   width: 10rem;
+  margin-left: 10vw;
+  margin-top: 2vh;
+}
+
+.logoCartnerGolf {
+  background-color: #ffffff00;
+  width: 3rem;
+  margin-left: 15vw;
+  margin-top: 2vh;
 }
