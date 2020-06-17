@@ -73,7 +73,12 @@ svg {
   margin-right: auto;
   display: flow-root;
 }
-
+.aboutRow, .row {
+    flex: 0 0 100%;
+    align-items: center;
+    align-content: center;
+    width: max-content;
+}
 .bg-dark {
   background-color: #004065 !important;
 }
