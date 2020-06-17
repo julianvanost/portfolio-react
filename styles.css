@@ -88,7 +88,12 @@ svg {
   width: 5rem;
   margin-top: 2vh;
 }
-
+.aboutRow, .row {
+    flex: 0 0 100%;
+    align-items: center;
+    align-content: center;
+    width: max-content;
+}
 .logoAmbutrack {
   background-color: #ffffff00;
   width: 10rem;
