@@ -2,6 +2,25 @@ body {
   background-color: #ecfdff;
 }
 
+body::-webkit-scrollbar {
+  background-color: #555;
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #555;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0074b7;
+  border-radius: 15px;
+  border: transparent;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
 .navWidth {
   width: 100%;
 }
@@ -64,6 +83,18 @@ svg {
   max-width: 100%;
 }
 
+.float-right-custom {
+  float: right !important;
+  margin-bottom: 30px;
+  margin-top: -10px;
+}
+
+.form-group {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: transparent;
+}
+
 .row {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 100%;
@@ -72,6 +103,12 @@ svg {
   margin-left: auto;
   margin-right: auto;
   display: flow-root;
+}
+
+.navbar-nav {
+  font-weight: 100 !important;
+  float: right !important;
+  margin-left: auto !important;
 }
 
 .bg-dark {

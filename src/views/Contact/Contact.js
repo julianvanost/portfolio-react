@@ -59,24 +59,26 @@ const Contact = () => {
                 ></input>
               </div>
             </div>
-            <div className="form-group">
-              <label
-                htmlFor="message">Message</label>
-              <textarea
-                className="form-control"
-                onChange={handleInputChange}
-                id="message"
-                type='text'
-                name="messageInput"
-                value={countState.messageInput}
-                rows="3"
-                placeholder="Enter your message here"
-              ></textarea>
+            <div className="row">
+              <div className="form-group">
+                <label
+                  htmlFor="message">Message</label>
+                <textarea
+                  className="form-control"
+                  onChange={handleInputChange}
+                  id="message"
+                  type='text'
+                  name="messageInput"
+                  value={countState.messageInput}
+                  rows="3"
+                  placeholder="Enter your message here"
+                ></textarea>
+              </div>
+              <br></br>
+              <button className='btn btn-outline-primary btn-waves-effect float-right-custom'
+                onClick={handleSubmit}
+              >Submit</button>
             </div>
-            <br></br>
-            <button className='btn btn-outline-primary btn-waves-effect'
-              onClick={handleSubmit}
-            >Submit</button>
           </form>
         </div>
       </div>
