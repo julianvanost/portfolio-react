@@ -19,7 +19,7 @@ const Home = () => {
                 Greetings and Welcome to my new page! My name is Julian and I hope you enjoy the content on this site which includes some example projects, my resume, and a link to my certificate of completion for University of California, Irvine's Full-Stack Flex Web Development Bootcamp.
               </p>
               <p>
-                Below are some badges that I have learned while continuing my education in Web Development.
+                Below are some badges that I have earned while continuing my education in Web Development.
                 </p>
             </div>
           </div>
