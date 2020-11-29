@@ -35,5 +35,5 @@ const App = () => {
     </>
   )
 }
-
+// TODO: Enable form functionality so that form actually sends emails when submit button is used.
 export default App
