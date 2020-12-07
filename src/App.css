@@ -155,3 +155,6 @@ svg {
   margin-left: 5vw;
   margin-top: 1vh;
 }
+.spiel {
+  display: flex !important;
+}
