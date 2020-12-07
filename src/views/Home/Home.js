@@ -33,13 +33,6 @@ const Home = () => {
         </div>
       </footer>
     </div>
-    // <div class="row spiel">
-    //   <div class="col-md-3">
-    //     <img src="/portfolio-react/static/media/profilePicture.0be9b6c2.jpg" alt="Julian Van Ost Profile" class="img-thumbnail">
-    //       </div>
-    //       <div class="col-md-9">
-    //         <p>Greetings and Welcome to my new page! My name is Julian and I hope you enjoy the content on this site which includes some example projects, my resume, and a link to my certificate of completion for University of California, Irvine's Full-Stack Flex Web Development Bootcamp.</p><p>Below are some badges that I have earned while continuing my education in Web Development.</p></div></div>
-
   )
 }
 export default Home
