@@ -9,8 +9,8 @@ const Home = () => {
         <div className="page-header">
           <h1>Home</h1>
         </div>
-        <div class="row spiel">
-          <div class="col-md-3">
+        <div className="row spiel">
+          <div className="col-md-3">
             <img src={require("../../images/profilePicture.jpg")} alt="Julian Van Ost Profile" className="img-thumbnail"></img>
           </div>
           <div className="col-md-9">
