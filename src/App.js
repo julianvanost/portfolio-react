@@ -31,7 +31,7 @@ const App = () => {
           <Route path="/" exact>
             <Home />
           </Route>
-          <Redirect to="/" />
+          <Redirect to="/portfolio-react" />
         </Switch>
       </Router>
     </>
