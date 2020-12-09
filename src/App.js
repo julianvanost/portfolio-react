@@ -28,10 +28,10 @@ const App = () => {
           <Route path='/contact'>
             <Contact />
           </Route>
-          <Route path="/portfolio-react/" exact>
+          <Route path="/" exact>
             <Home />
           </Route>
-          <Redirect to="/portfolio-react" />
+          <Redirect to="/" />
         </Switch>
       </Router>
     </>

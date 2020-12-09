@@ -1,6 +1,9 @@
 
+// import React, { Suspense } from "react";
+// import React, { Suspense, lazy } from "react";
 import React from 'react'
 import Badges from './Badges'
+// import Badges = lazy(() => import("./Badges"));
 
 const Home = () => {
   return (
@@ -24,7 +27,7 @@ const Home = () => {
         </div>
       </div>
       <footer>
-        <Badges/>
+        <Badges />
       </footer>
     </div>
   )
