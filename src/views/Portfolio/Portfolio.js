@@ -17,7 +17,7 @@ const Portfolio = () => {
             </svg>
             <a className="largerLinks" target="_blank" rel="noopener noreferrer" href="https://github.com/julianvanost">
               My Github Page
-                  </a>
+            </a>
           </p>
           <p>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -26,7 +26,7 @@ const Portfolio = () => {
             </svg>
             <a className="largerLinks" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/julian-b-van-ost-ab3a5262">
               My Linkedin Page
-                </a>
+            </a>
           </p>
           <p>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -35,16 +35,19 @@ const Portfolio = () => {
             </svg>
             <a className="largerLinks" target="_blank" rel="noopener noreferrer" href="https://www.returntoworksolutions.com/julian-van-ost">
               My Web Portfolio
-                </a>
+            </a>
           </p>
           <div className='row'>
+            <h1 className="page-header">
+              Project Examples
+            </h1>
             <span>
               <a className="logoCrypit" target="_blank" rel="noopener noreferrer" href="https://preyx.github.io/bcprj1-api/">
                 <img className="logoCrypit" src={require("./ci-logo.png")} alt="CrypIt Logo"></img>
               </a>
             </span>
             <span>
-              <a className="logoAmbutrack" target="_blank" rel="noopener noreferrer" href="https://AmbuTrack.herokuapp.com/">
+              <a className="logoAmbutrack" target="_blank" rel="noopener noreferrer" href="https://ambutrack.herokuapp.com/">
                 <img className="logoAmbutrack" src={require("./AbutrackLogo.png")} alt="Ambutrack Logo"></img></a>
               <span>
               </span>
