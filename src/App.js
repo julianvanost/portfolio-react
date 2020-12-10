@@ -19,7 +19,7 @@ const App = () => {
       <Router>
         <Navbar />
         <Switch>
-          <Route path='/About'>
+          <Route path='/about'>
             <About />
           </Route>
           <Route path='/portfolio'>
@@ -28,14 +28,15 @@ const App = () => {
           <Route path='/contact'>
             <Contact />
           </Route>
-          <Route path="/" exact>
+          <Route path="/portfolio-react/" exact >
             <Home />
           </Route>
-          <Redirect to="/portfolio-react" />
+          <Redirect to="/portfolio-react/" exact />
         </Switch>
       </Router>
     </>
   )
 }
 // TODO: Enable form functionality so that form actually sends emails when submit button is used.
+// TODO: Get Badges to refresh when "Home" link on NavBar is clicked
 export default App

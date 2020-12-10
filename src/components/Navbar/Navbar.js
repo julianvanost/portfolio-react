@@ -34,7 +34,6 @@ const Navbar = props => {
         </ul>
       </div>
     </nav>
-
   )
 }
 
