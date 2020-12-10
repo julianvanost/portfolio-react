@@ -1,12 +1,8 @@
   body {
-    background-color: #ecfdff;
+    background-color: #e0eeff;
     color: #484848;
   }
-
-  .navWidth {
-    width: 100%;
-  }
-
+  
   * {
     font-family: 'Quicksand', sans-serif;
     font-size: 24px;
@@ -16,13 +12,13 @@
   a {
     font-family: 'Quicksand', sans-serif;
   }
-
+  
   p {
     font-family: 'Quicksand', sans-serif;
     font-size: 24px;
     font-weight: normal;
   }
-
+  
   h1 {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
@@ -32,15 +28,31 @@
     margin: 20px;
     margin-bottom: 20px;
   }
-
+  
   nav {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
   }
-
+  
   svg {
     height: 60;
     width: 60;
+  }
+  .nav-link {
+    display: block;
+    padding: 0rem 1rem;
+  }
+  .navbar-toggler {
+    padding: 0rem 0rem;
+  }
+  .navbar-collapse {
+    margin-bottom: 0.5rem;
+  }
+  .navWidth {
+    width: 100%;
+  }
+  .mb-4 {
+    margin-bottom: 0.5rem !important;
   }
 
   .largerLinks {
@@ -79,13 +91,13 @@
   }
 
   .navbar-dark .navbar-nav .nav-link {
-    color: #d2d2d2 !important;
+    color: #e0eeff !important;
   }
 
   .navbar-dark .navbar-brand {
     font-size: 1.25rem !important;
     font-weight: 700 !important;
-    color: #ffffff !important;
+    color: #e0eeff !important;
     font-family: 'Segoe UI',
       Tahoma,
       Geneva,
