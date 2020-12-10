@@ -5,7 +5,7 @@ import {
 
 const Navbar = props => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+    <nav className="sticky-top navbar navbar-expand-lg navbar-dark bg-dark mb-4">
       <span className="navbar-brand">Julian Van Ost</span>
       <button className="navbar-toggler"
         type="button"

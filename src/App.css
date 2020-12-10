@@ -1,5 +1,5 @@
 body {
-  background-color: #ecfdff;
+  background-color:#e0eeff;
 }
 
 body::-webkit-scrollbar {
@@ -116,9 +116,6 @@ svg {
   background-color: #004065 !important;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: #ffffff !important;
-}
 
 .navbar {
   padding: 0rem 1rem;
@@ -128,7 +125,7 @@ svg {
 .navbar-dark .navbar-brand {
   font-size: 1.25rem !important;
   font-weight: 700 !important;
-  color: #ffffff !important;
+  color: #e0eeff !important;
   font-family: 'Segoe UI',
     Tahoma,
     Geneva,
