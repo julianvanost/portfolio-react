@@ -38,22 +38,6 @@
     height: 60;
     width: 60;
   }
-  .nav-link {
-    display: block;
-    padding: 0rem 1rem;
-  }
-  .navbar-toggler {
-    padding: 0rem 0rem;
-  }
-  .navbar-collapse {
-    margin-bottom: 0.5rem;
-  }
-  .navWidth {
-    width: 100%;
-  }
-  .mb-4 {
-    margin-bottom: 0.5rem !important;
-  }
 
   .largerLinks {
     font-size: larger;
@@ -131,8 +115,8 @@
       flex-basis: none !important;
     }
   }
-
-  .collapse {
+*/
+  /* .collapse {
     display: flex !important;
     flex-basis: none !important;
   }
@@ -140,4 +124,4 @@
   .navbar-collapse {
     display: flex !important;
     flex-basis: none !important;
-  } */
+  }  */
