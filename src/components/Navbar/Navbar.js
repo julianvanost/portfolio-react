@@ -2,7 +2,6 @@ import React from 'react'
 import {
   Link
 } from 'react-router-dom'
-
 const Navbar = props => {
   return (
     <nav className="sticky-top navbar navbar-expand-lg navbar-dark bg-dark mb-4">
@@ -19,7 +18,7 @@ const Navbar = props => {
       </button>
       <div className="collapse navbar-collapse" id="navbarCollapse">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item active">
+          <li className="nav-item">
             <Link className="nav-item nav-link" to='/'>Home</Link>
           </li>
           <li className="nav-item">
