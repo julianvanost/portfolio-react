@@ -1,28 +1,44 @@
 import React, { useState, useEffect } from 'react'
+import axios from "axios";
 
-const Contact = () => {
-  //must bring in useState in order to have a state in React hooks
-  //useState returns an array, first being what is in the state, second being a function
-  //to access count, syntax woould be countState.count
-  //instead of setState, the function is now called setCountState
-  const [countState, setCountState] = useState({
-    username: '',
-    email: '',
-    message: '',
-    usernameInput: '',
-    messageInput: '',
-    emailInput: '',
-  })
+class Contact extends Component {
+  constructor() {
+    super();
+    this.state = {
+      name: "",
+      email: "",
+      message: "",
+      status: "Submit"
+    };
+  }
+  let buttonText = this.state.status;
+}
 
-  const handleInputChange = event => {
-    setCountState({ ...countState, [event.target.name]: event.target.value })
-  }
-  const handleSubmit = event => {
-    event.preventDefault()
-    setCountState({ ...countState, username: countState.usernameInput, email: countState.emailInput, message: countState.messageInput, usernameInput: '', emailInput: '', messageInput: '' })
-  }
-  useEffect(() => {
-  }, [countState.usernameInput])
+
+
+// const Contact = () => {
+//   //must bring in useState in order to have a state in React hooks
+//   //useState returns an array, first being what is in the state, second being a function
+//   //to access count, syntax woould be countState.count
+//   //instead of setState, the function is now called setCountState
+//   const [countState, setCountState] = useState({
+//     username: '',
+//     email: '',
+//     message: '',
+//     usernameInput: '',
+//     messageInput: '',
+//     emailInput: '',
+//   })
+
+//   const handleInputChange = event => {
+//     setCountState({ ...countState, [event.target.name]: event.target.value })
+//   }
+//   const handleSubmit = event => {
+//     event.preventDefault()
+//     setCountState({ ...countState, username: countState.usernameInput, email: countState.emailInput, message: countState.messageInput, usernameInput: '', emailInput: '', messageInput: '' })
+//   }
+//   useEffect(() => {
+//   }, [countState.usernameInput])
 
   return (
     <main className="container mainStyle">
