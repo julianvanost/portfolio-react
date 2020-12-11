@@ -163,12 +163,14 @@ svg {
   width: 5rem;
   margin-top: 2vh;
   margin-left: 2vh;
+  margin-bottom: 2vh;
 }
 
 .logoAmbutrack {
   background-color: #ffffff00;
   width: 8rem;
   margin-left: 5vw;
+  margin-bottom: 2vh;
 }
 
 .logoCartnerGolf {
@@ -176,6 +178,7 @@ svg {
   width: 3rem;
   margin-left: 5vw;
   margin-top: 1vh;
+  margin-bottom: 2vh;
 }
 .spiel {
   display: flex !important;
