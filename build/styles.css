@@ -93,6 +93,7 @@
     background-color: #ffffff00;
     width: 5rem;
     margin-top: 2vh;
+    margin-bottom: 2vh;
   }
 
   .logoAmbutrack {
@@ -100,6 +101,7 @@
     width: 10rem;
     margin-left: 10vw;
     margin-top: 2vh;
+    margin-bottom: 2vh;
   }
 
   .logoCartnerGolf {
@@ -107,6 +109,7 @@
     width: 3rem;
     margin-left: 15vw;
     margin-top: 2vh;
+    margin-bottom: 2vh;
   }
 
   /* @media (min-width: 992px) {
