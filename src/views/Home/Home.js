@@ -1,7 +1,6 @@
 import React from 'react'
 import Badges from './Badges'
 
-
 const Home = () => {
   return (
     <div className="container">
