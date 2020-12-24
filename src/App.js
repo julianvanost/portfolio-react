@@ -38,5 +38,4 @@ const App = () => {
   )
 }
 // TODO: Enable form functionality so that form actually sends emails when submit button is used.
-// TODO: Get Badges to refresh when "Home" link on NavBar is clicked
 export default App
