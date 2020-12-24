@@ -217,3 +217,7 @@ svg {
     margin-top: 0rem !important;
   }
 }
+.badges {
+  display: inline-flex;
+  width: 200px;
+}
