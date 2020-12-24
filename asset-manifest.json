@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.e9244802.chunk.css",
+    "main.css": "/portfolio-react/static/css/main.666b28ac.chunk.css",
     "main.js": "/portfolio-react/static/js/main.4ab99660.chunk.js",
     "main.js.map": "/portfolio-react/static/js/main.4ab99660.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.a4de92d3.js",
@@ -8,9 +8,9 @@
     "static/js/2.f1e22829.chunk.js": "/portfolio-react/static/js/2.f1e22829.chunk.js",
     "static/js/2.f1e22829.chunk.js.map": "/portfolio-react/static/js/2.f1e22829.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
-    "precache-manifest.bbb0d0e9f5d464c5b003c1aaee824123.js": "/portfolio-react/precache-manifest.bbb0d0e9f5d464c5b003c1aaee824123.js",
+    "precache-manifest.c008d160fa77fd98536e0e5c7c6cc3ce.js": "/portfolio-react/precache-manifest.c008d160fa77fd98536e0e5c7c6cc3ce.js",
     "service-worker.js": "/portfolio-react/service-worker.js",
-    "static/css/main.e9244802.chunk.css.map": "/portfolio-react/static/css/main.e9244802.chunk.css.map",
+    "static/css/main.666b28ac.chunk.css.map": "/portfolio-react/static/css/main.666b28ac.chunk.css.map",
     "static/js/2.f1e22829.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.f1e22829.chunk.js.LICENSE.txt",
     "static/media/AbutrackLogo.png": "/portfolio-react/static/media/AbutrackLogo.e8ba8328.png",
     "static/media/CartnerGolf.png": "/portfolio-react/static/media/CartnerGolf.e1c174aa.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.a4de92d3.js",
     "static/js/2.f1e22829.chunk.js",
-    "static/css/main.e9244802.chunk.css",
+    "static/css/main.666b28ac.chunk.css",
     "static/js/main.4ab99660.chunk.js"
   ]
 }
