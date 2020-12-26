@@ -268,3 +268,12 @@ svg {
   display: inline-flex;
   width: 200px;
 }
+
+
+
+.logo {
+  display: inline-flex;
+  width: 7rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
