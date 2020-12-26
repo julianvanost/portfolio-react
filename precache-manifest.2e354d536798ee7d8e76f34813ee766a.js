@@ -1,43 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ffd29a4c6d1741dbf6e29fcde42d540d",
+    "revision": "ef0a8e170cf384f8ddc6afd8540b7a67",
     "url": "/portfolio-react/index.html"
   },
   {
-    "revision": "62b553a5a806329d159b",
-    "url": "/portfolio-react/static/css/main.8a355f2e.chunk.css"
+    "revision": "a12b9f53a2e332bbd50f",
+    "url": "/portfolio-react/static/css/main.83e6ef99.chunk.css"
   },
   {
-    "revision": "752434e3511d9c51ca9c",
-    "url": "/portfolio-react/static/js/2.f1e22829.chunk.js"
+    "revision": "7d597061a7640d1c1140",
+    "url": "/portfolio-react/static/js/2.effd1fce.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/portfolio-react/static/js/2.f1e22829.chunk.js.LICENSE.txt"
+    "url": "/portfolio-react/static/js/2.effd1fce.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "62b553a5a806329d159b",
-    "url": "/portfolio-react/static/js/main.df064634.chunk.js"
+    "revision": "a12b9f53a2e332bbd50f",
+    "url": "/portfolio-react/static/js/main.94064552.chunk.js"
   },
   {
     "revision": "2f26d0aed242c262185b",
     "url": "/portfolio-react/static/js/runtime-main.a4de92d3.js"
   },
   {
-    "revision": "e8ba8328ebaee74b2b6266fcc3c76c92",
-    "url": "/portfolio-react/static/media/AbutrackLogo.e8ba8328.png"
+    "revision": "36dfeef3536de7b82893f4233bf48c79",
+    "url": "/portfolio-react/static/media/CartnerGolf.36dfeef3.png"
   },
   {
-    "revision": "e1c174aa101ce4dd182f1a12ab9685c7",
-    "url": "/portfolio-react/static/media/CartnerGolf.e1c174aa.png"
+    "revision": "a9578135c0aacc46530c9f5275e3bc3f",
+    "url": "/portfolio-react/static/media/CodeQuizLogo.a9578135.png"
   },
   {
     "revision": "9eb4c7858d681ba567bd844d12ab0c37",
     "url": "/portfolio-react/static/media/GraduationCertificate.9eb4c785.pdf"
-  },
-  {
-    "revision": "3c3968d89383d7a6671c7e7fd3ede3de",
-    "url": "/portfolio-react/static/media/ci-logo.3c3968d8.png"
   },
   {
     "revision": "685fc9f53140f307161c03d2c6e3464f",
