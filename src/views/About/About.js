@@ -27,10 +27,10 @@ const About = () => {
               </p>
               <p>
                 I have a particular knack for front-end work such as Design, CSS, and DOM manipulation.
-                Thus, my current goal is to lend my skills to join a team working with Front-End Design or Development.
+                Thus, my current goal is to lend my skills and join a team working with Front-End Design or Development.
               </p>
               <p>
-                In the long run, I intend on working my hardest on continuing to develop these skills in order to continue my
+                I work my hardest on continuing to develop these skills in order to continue my
                 career in web design and development.
               </p>
               <p>

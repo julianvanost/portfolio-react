@@ -82,6 +82,10 @@ footer {
   margin-top: 3rem;
 }
 
+ul {
+  list-style: none;
+}
+
 svg {
   height: 1.5rem;
   width: 1.5rem;

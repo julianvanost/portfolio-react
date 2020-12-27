@@ -40,8 +40,20 @@ const Portfolio = () => {
             </p>
             <div className='row'>
               <h1 className="page-header">
-                Project Examples
+                Example Work
             </h1>
+              <div className="projects section-height center-text">
+                <p className="">Freelance Projects</p>
+                <ul className="example-links center-text">
+                  <li><a href="https://www.sycstreetwear.com/" rel="noopener noreferrer" target="_blank">www.sycstreetwear.com </a> - Show Your Compassion Streetwear</li>
+                  <li><a href="https://www.silbermanlaw.com/" rel="noopener noreferrer" target="_blank">www.silbermanlaw.com</a> - Silberman Law Offices, LLP Company Website</li>
+                  <li><a href="https://www.leonardsilbermanlaw.com/" rel="noopener noreferrer" target="_blank">www.leonardsilbermanlaw.com </a> - Leonard Silberman Law Office Company Website</li>
+                  <li><a href="https://www.returntoworksolutions.com/" rel="noopener noreferrer" target="_blank">www.returntoworksolutions.com </a> - Rehab 90 / Return to Work Solutions Company Website</li>
+                </ul>
+              </div>
+
+              <div className="bottom-height"></div>
+              <p className="">Side Projects & Collaborations</p>
               <span className="">
                 <a className="" target="_blank" rel="noopener noreferrer" href="https://preyx.github.io/bcprj1-api/">
                   <img className="logo" src={require("./ci-logo.png")} alt="CrypIt Logo"></img>
