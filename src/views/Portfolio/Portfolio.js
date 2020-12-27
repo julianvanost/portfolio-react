@@ -1,4 +1,5 @@
 import React from 'react'
+import Pdf from './Resume.pdf'
 
 const Portfolio = () => {
   return (
@@ -30,28 +31,25 @@ const Portfolio = () => {
             </a>
             </p>
             <p>
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path
-                  d="M21 9c.552 0 1 .449 1 1v9c0 .551-.448 1-1 1h-18c-.552 0-1-.449-1-1v-9c0-.551.448-1 1-1h18zm0-2h-18c-1.657 0-3 1.343-3 3v9c0 1.657 1.343 3 3 3h18c1.657 0 3-1.343 3-3v-9c0-1.657-1.343-3-3-3zm-12-5c-1.104 0-2 .896-2 2v2h2v-1.5c0-.276.224-.5.5-.5h5c.276 0 .5.224.5.5v1.5h2v-2c0-1.104-.896-2-2-2h-6zm10.5 9h-15c-.276 0-.5.224-.5.5s.224.5.5.5h15c.276 0 .5-.224.5-.5s-.224-.5-.5-.5zm0 3h-15c-.276 0-.5.224-.5.5s.224.5.5.5h15c.276 0 .5-.224.5-.5s-.224-.5-.5-.5zm0 3h-15c-.276 0-.5.224-.5.5s.224.5.5.5h15c.276 0 .5-.224.5-.5s-.224-.5-.5-.5z" />
-              </svg>
-              <a className="largerLinks" target="_blank" rel="noopener noreferrer" href="https://www.returntoworksolutions.com/julian-van-ost">
-                My Web Portfolio
+              <img alt="Download Resume icon" src="https://img.icons8.com/ios-filled/2x/open-resume.png" className="icons"></img>
+              <a className="largerLinks" target="_blank" rel="noopener noreferrer" href={Pdf}>
+                My Resume
             </a>
             </p>
             <div className='row'>
-              <h1 className="page-header">
+              <h4 className="page-header">
                 Example Work
-            </h1>
-              <div className="projects section-height center-text">
+            </h4>
+              <div className="projects">
                 <p className="">Freelance Projects</p>
-                <ul className="example-links center-text">
-                  <li><a href="https://www.sycstreetwear.com/" rel="noopener noreferrer" target="_blank">www.sycstreetwear.com </a> - Show Your Compassion Streetwear</li>
-                  <li><a href="https://www.silbermanlaw.com/" rel="noopener noreferrer" target="_blank">www.silbermanlaw.com</a> - Silberman Law Offices, LLP Company Website</li>
-                  <li><a href="https://www.leonardsilbermanlaw.com/" rel="noopener noreferrer" target="_blank">www.leonardsilbermanlaw.com </a> - Leonard Silberman Law Office Company Website</li>
-                  <li><a href="https://www.returntoworksolutions.com/" rel="noopener noreferrer" target="_blank">www.returntoworksolutions.com </a> - Rehab 90 / Return to Work Solutions Company Website</li>
+                <ul className="">
+                  <li><a href="https://www.sycstreetwear.com/" rel="noopener noreferrer" target="_blank">sycstreetwear.com</a> - Show Your Compassion Streetwear</li>
+                  <li><a href="https://www.silbermanlaw.com/" rel="noopener noreferrer" target="_blank">silbermanlaw.com</a> - Silberman Law Offices, LLP Company Website</li>
+                  <li><a href="https://www.leonardsilbermanlaw.com/" rel="noopener noreferrer" target="_blank">leonardsilbermanlaw.com</a> - Leonard Silberman Law Office Company Website</li>
+                  <li><a href="https://www.returntoworksolutions.com/" rel="noopener noreferrer" target="_blank">returntoworksolutions.com</a> - Rehab 90 / Return to Work Solutions Company Website</li>
+                  <li><a href="https://www.returntoworksolutions.com/julian-van-ost" rel="noopener noreferrer" target="_blank">julian-van-ost</a> - An Alternate Web Portfolio</li>
                 </ul>
               </div>
-
               <div className="bottom-height"></div>
               <p className="">Side Projects & Collaborations</p>
               <span className="">

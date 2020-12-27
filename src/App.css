@@ -84,11 +84,26 @@ footer {
 
 ul {
   list-style: none;
+  display: inline;
 }
 
 svg {
   height: 1.5rem;
   width: 1.5rem;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+}
+
+.projects {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4 {
+  font-weight: 600;
 }
 
 .text-info {
