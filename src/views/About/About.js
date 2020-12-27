@@ -10,15 +10,17 @@ const About = () => {
             <div className="page-header">
               <h1>About Me</h1>
             </div>
+            <strong className="text-info">
+              Currently available for hire!
+              </strong>
             <div className="row">
               <p>
-                I am currently available for hire!
-              </p>
-              <p>
                 I enjoy creating content on the web! I have a few years experience in professional front-end web development,
-                using HTML, CSS, JavaScript, and JS plugins at a software company called Exterro, Inc, where I worked on the small team that
-                designed and built the front-end of their latest version 5.0 application suite. I have currently been practicing by completing
-                freelance projects and furthering my education in order to stay up to date on the latest in web development.
+                using HTML, CSS, JavaScript, and JS plugins at a software company called
+                <a href={'https://www.exterro.com/'} target="_blank" rel="noopener noreferrer"> Exterro, Inc </a>,
+                where I worked on the small team that designed and built the front-end of their latest version 5.0
+                application suite. I have currently been practicing by completing freelance projects and furthering
+                my education in order to stay up to date on the latest in web development.
                 Lately, I have been working with newer technologies and frameworks, such as React.js, Mongo, and Node.js.
                 A big goal of mine is to become completely proficient in full-stack web development- as server-side development
                 is something that I have more recently learned.
@@ -34,8 +36,9 @@ const About = () => {
               <p>
                 As of April 2020, I am proud say that I have graduated with an A+ average at Univeristy of California Irvine,
                 Division of Continuing Education: "Full-Stack Flex Web Development" Coding Bootcamp. Here is a link to my
-                <a href={Pdf} target="_blank" rel="noopener noreferrer"> Certificate of Completion </a>
-                if you would like to take a look. I have been putting the skills learned there to work more lately on personal side projects.
+                <a href={Pdf} target="_blank" rel="noopener noreferrer"> UCI Certificate of Completion </a>
+                if you would like to take a look. I have been putting the skills learned there to work more recently on
+                personal side projects.
               </p>
             </div>
           </div>
