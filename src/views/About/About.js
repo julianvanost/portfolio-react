@@ -12,23 +12,32 @@ const About = () => {
             </div>
             <div className="row">
               <p>
-                I have professional experience in front-end web development, using HTML, CSS, jQuery, and more, but most of my
-                experience in previous jobs pertained to a tech stacks that were outdated by at least a few years. I am
-                currently working on catching up on the latest in web development and mastering the newer technologies and the newer
-                frameworks. Another goal is to become completely proficient in full-stack web development, as this is a newer skill I have recently acquired.
-            </p>
+                I am currently available for hire!
+              </p>
+              <p>
+                I enjoy creating content on the web! I have a few years experience in professional front-end web development,
+                using HTML, CSS, JavaScript, and JS plugins at a software company called Exterro, Inc, where I worked on the small team that
+                designed and built the front-end of their latest version 5.0 application suite. I have currently been practicing by completing
+                freelance projects and furthering my education in order to stay up to date on the latest in web development.
+                Lately, I have been working with newer technologies and frameworks, such as React.js, Mongo, and Node.js.
+                A big goal of mine is to become completely proficient in full-stack web development- as server-side development
+                is something that I have more recently learned.
+              </p>
+              <p>
+                At the moment, I have a particular knack for front-end work such as Design, CSS, and DOM manipulation.
+                Thus, my current goal is to find work in entry to mid-level Front-End Design or Development.
+              </p>
               <p>
                 In the long run, I intend on working my hardest on continuing to develop these skills in order to continue my
-                career in web design and development. I particulary have a knack for front-end work such as Design, CSS, and DOM manipulation; thus, my goal is to find work in Front-End Development.
-            </p>
+                career in web design and development.
+              </p>
               <p>
-                As of April 2020, I am proud to have graduated with an A+ average at the esteemed Univeristy of California Irvine, Division of continuing Education: "Full-Stack Flex Web Development" Bootcamp.
-            </p>
-              <p>
-                <a href={Pdf} target="_blank" rel="noopener noreferrer">UCI Certificate of Completion</a>
+                As of April 2020, I am proud say that I have graduated with an A+ average at Univeristy of California Irvine,
+                Division of Continuing Education: "Full-Stack Flex Web Development" Coding Bootcamp. Here is a link to my
+                <a href={Pdf} target="_blank" rel="noopener noreferrer"> Certificate of Completion </a>
+                if you would like to take a look. I have been putting the skills learned there to work more lately on personal side projects.
               </p>
             </div>
-
           </div>
         </div>
       </div>

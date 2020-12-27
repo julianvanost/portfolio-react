@@ -50,10 +50,16 @@ a {
 }
 
 p,
-label {
+label,
+a {
   font-family: 'Quicksand', sans-serif;
   font-size: 24px;
   font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #ff5a00;
 }
 
 h1 {
@@ -276,4 +282,5 @@ svg {
   width: 7rem;
   margin-left: 1rem;
   margin-right: 1rem;
+  margin-bottom: 2rem;
 }

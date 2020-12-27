@@ -42,26 +42,26 @@ const Portfolio = () => {
               <h1 className="page-header">
                 Project Examples
             </h1>
-              <span>
+              <span className="">
                 <a className="" target="_blank" rel="noopener noreferrer" href="https://preyx.github.io/bcprj1-api/">
                   <img className="logo" src={require("./ci-logo.png")} alt="CrypIt Logo"></img>
                 </a>
               </span>
-              <span>
+              <span className="">
                 <a className="" target="_blank" rel="noopener noreferrer" href="https://ambutrack.herokuapp.com/">
                   <img className="logo" src={require("./AbutrackLogo.png")} alt="Ambutrack Logo"></img></a>
-                <span>
-                </span>
+              </span>
+              <span className="">
                 <a className="" target="_blank" rel="noopener noreferrer" href="https://cartner-golf.herokuapp.com/">
                   <img className="logo" src={require("./CartnerGolf.png")} alt="Cartner Golf Logo"></img>
                 </a>
               </span>
-              <span>
+              <span className="">
                 <a className="" target="_blank" rel="noopener noreferrer" href="https://julianvanost.github.io/Code-Quiz/">
                   <img className="logo" src={require("./CodeQuizLogo.png")} alt="Code Quiz"></img>
                 </a>
               </span>
-              <span>
+              <span className="">
                 <a className="" target="_blank" rel="noopener noreferrer" href="https://julianvanost.github.io/Day-Scheduler/">
                   <img className="logo" src={require("./DayPlannerLogo.png")} alt="Day Planner"></img>
                 </a>
