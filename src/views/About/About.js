@@ -1,5 +1,8 @@
 import React from 'react'
 import Pdf from "./GraduationCertificate.pdf";
+import {
+  Link
+} from 'react-router-dom'
 
 const About = () => {
   return (
@@ -15,30 +18,35 @@ const About = () => {
               </strong>
             <div className="row">
               <p>
-                I enjoy creating content on the web! I have a few years experience in professional front-end web development,
-                using HTML, CSS, JavaScript, and JS plugins at a software company called
-                <a href={'https://www.exterro.com/'} target="_blank" rel="noopener noreferrer"> Exterro, Inc </a>,
-                where I worked on the small team that designed and built the front-end of their latest version 5.0
-                application suite. I have currently been practicing by completing freelance projects and furthering
-                my education in order to stay up to date on the latest in web development.
-                Lately, I have been working with newer technologies and frameworks, such as React.js, Mongo, and Node.js.
-                A big goal of mine is to become completely proficient in full-stack web development- as server-side development
-                is something that I have more recently learned.
+                I enjoy creating content on the web!
               </p>
               <p>
-                I have a particular knack for front-end work such as Design, CSS, and DOM manipulation.
-                Thus, my current goal is to lend my skills and join a team working with Front-End Design or Development.
+                I have professional experience in front-end web development, using: HTML, CSS, JavaScript, and JS plugins.
+                I learned these skills during my employment with
+                <a href={'https://www.exterro.com/'} target="_blank" rel="noopener noreferrer">Exterro</a>
+                . There, I worked with a small team to design and build the front-end of their latest application suite.
               </p>
               <p>
-                I work my hardest on continuing to develop these skills in order to continue my
-                career in web design and development.
+                Lately, I have been working with newer technologies and frameworks, such as: React.js, Mongo, and Node.js
+                while completing freelance <Link to='/portfolio'>projects</Link>.
               </p>
               <p>
-                As of April 2020, I am proud say that I have graduated with an A+ average at Univeristy of California Irvine,
-                Division of Continuing Education: "Full-Stack Flex Web Development" Coding Bootcamp. Here is a link to my
-                <a href={Pdf} target="_blank" rel="noopener noreferrer"> UCI Certificate of Completion </a>
-                if you would like to take a look. I have been putting the skills learned there to work more recently on
-                personal side projects.
+                In addition, I have been furthering my education.
+              </p>
+              <p>
+                In April 2020, I graduated with a 4.0 from Univeristy of California Irvine, Division of Continuing Education:
+                <a href={Pdf} target="_blank" rel="noopener noreferrer"> Full-Stack Flex Web Development </a>Coding Bootcamp.
+              </p>
+              <p>
+                I have a particular knack for front-end work such as Design, CSS, and DOM manipulation. As such, my current goal
+                is to join a team working with Front-End Design or Development.
+              </p>
+              <p>
+                Additionally, I have recent experience in server-side development A major goal of mine is to become completely
+                proficient in full-stack web development.
+              </p>
+              <p>
+                I welcome any work in these areas. Please explore the rest of my page and examples and I hope to hear from you!
               </p>
             </div>
           </div>
