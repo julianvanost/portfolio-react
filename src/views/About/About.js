@@ -23,12 +23,12 @@ const About = () => {
               <p>
                 I have professional experience in front-end web development, using: HTML, CSS, JavaScript, and JS plugins.
                 I learned these skills during my employment with
-                <a href={'https://www.exterro.com/'} target="_blank" rel="noopener noreferrer">Exterro</a>
+                <a href={'https://www.exterro.com/'} target="_blank" rel="noopener noreferrer"> Exterro</a>
                 . There, I worked with a small team to design and build the front-end of their latest application suite.
               </p>
               <p>
                 Lately, I have been working with newer technologies and frameworks, such as: React.js, Mongo, and Node.js
-                while completing freelance <Link to='/portfolio'>projects</Link>.
+                while completing<Link to='/portfolio'> freelance projects</Link>.
               </p>
               <p>
                 In addition, I have been furthering my education.
