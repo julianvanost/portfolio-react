@@ -100,8 +100,24 @@ svg {
 .projects {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
 }
 
+.linkList {
+  margin-bottom: 2rem;
+}
+
+.projectList {
+  margin-bottom: -1rem;
+}
+.page-header{
+  margin-top:2rem;
+}
+.subHeading{
+  font-weight: 600;
+  color: rgb(95, 95, 95);
+}
 h4 {
   font-weight: 600;
 }

@@ -7,10 +7,10 @@ const Portfolio = () => {
       <div className="container text-center">
         <div className="row">
           <div className="col">
-            <div className="page-header">
+            <div>
               <h1>Portfolio</h1>
             </div>
-            <p className="">
+            <p>
               <svg className="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
                 width="32" aria-hidden="true">
                 <path fillRule="evenodd"
@@ -36,50 +36,50 @@ const Portfolio = () => {
                 My Resume
             </a>
             </p>
-            <div className='row'>
-              <h4 className="page-header">
-                Example Work
+          </div>
+          <div className='row linkList'>
+            <h4 className="page-header">
+              Example Work
             </h4>
-              <div className="projects">
-                <p className="">Freelance Projects</p>
-                <ul className="">
-                  <li><a href="https://www.sycstreetwear.com/" rel="noopener noreferrer" target="_blank">sycstreetwear.com</a> - Show Your Compassion Streetwear</li>
-                  <li><a href="https://www.silbermanlaw.com/" rel="noopener noreferrer" target="_blank">silbermanlaw.com</a> - Silberman Law Offices, LLP Company Website</li>
-                  <li><a href="https://www.leonardsilbermanlaw.com/" rel="noopener noreferrer" target="_blank">leonardsilbermanlaw.com</a> - Leonard Silberman Law Office Company Website</li>
-                  <li><a href="https://www.returntoworksolutions.com/" rel="noopener noreferrer" target="_blank">returntoworksolutions.com</a> - Rehab 90 / Return to Work Solutions Company Website</li>
-                  <li><a href="https://www.returntoworksolutions.com/julian-van-ost" rel="noopener noreferrer" target="_blank">julian-van-ost</a> - An Alternate Web Portfolio</li>
-                </ul>
-              </div>
-              <div className="bottom-height"></div>
-              <p className="">Side Projects & Collaborations</p>
-              <span className="">
-                <a className="" target="_blank" rel="noopener noreferrer" href="https://preyx.github.io/bcprj1-api/">
-                  <img className="logo" src={require("./ci-logo.png")} alt="CrypIt Logo"></img>
-                </a>
-              </span>
-              <span className="">
-                <a className="" target="_blank" rel="noopener noreferrer" href="https://ambutrack.herokuapp.com/">
-                  <img className="logo" src={require("./AbutrackLogo.png")} alt="Ambutrack Logo"></img></a>
-              </span>
-              <span className="">
-                <a className="" target="_blank" rel="noopener noreferrer" href="https://cartner-golf.herokuapp.com/">
-                  <img className="logo" src={require("./CartnerGolf.png")} alt="Cartner Golf Logo"></img>
-                </a>
-              </span>
-              <span className="">
-                <a className="" target="_blank" rel="noopener noreferrer" href="https://julianvanost.github.io/Code-Quiz/">
-                  <img className="logo" src={require("./CodeQuizLogo.png")} alt="Code Quiz"></img>
-                </a>
-              </span>
-              <span className="">
-                <a className="" target="_blank" rel="noopener noreferrer" href="https://julianvanost.github.io/Day-Scheduler/">
-                  <img className="logo" src={require("./DayPlannerLogo.png")} alt="Day Planner"></img>
-                </a>
-              </span>
+            <div className="projects">
+              <p className="projectList subHeading">Freelance Websites</p>
+              <ul>
+                <li><a href="https://www.sycstreetwear.com/" rel="noopener noreferrer" target="_blank">sycstreetwear.com</a> - Show Your Compassion Streetwear</li>
+                <li><a href="https://www.silbermanlaw.com/" rel="noopener noreferrer" target="_blank">silbermanlaw.com</a> - Silberman Law Offices, LLP Company Website</li>
+                <li><a href="https://www.leonardsilbermanlaw.com/" rel="noopener noreferrer" target="_blank">leonardsilbermanlaw.com</a> - Leonard Silberman Law Office Company Website</li>
+                <li><a href="https://www.returntoworksolutions.com/" rel="noopener noreferrer" target="_blank">returntoworksolutions.com</a> - Rehab 90 / Return to Work Solutions Company Website</li>
+                <li><a href="https://www.returntoworksolutions.com/julian-van-ost" rel="noopener noreferrer" target="_blank">julian-van-ost</a> - An Alternate Web Portfolio</li>
+              </ul>
             </div>
+            <div className="bottom-height"></div>
+            <p className="subHeading">Side Projects & Collaborations</p>
+            <span>
+              <a target="_blank" rel="noopener noreferrer" href="https://julianvanost.github.io/Code-Quiz/">
+                <img className="logo" src={require("./CodeQuizLogo.png")} alt="Code Quiz"></img>
+              </a>
+            </span>
+            <span>
+              <a target="_blank" rel="noopener noreferrer" href="https://preyx.github.io/bcprj1-api/">
+                <img className="logo" src={require("./ci-logo.png")} alt="CrypIt Logo"></img>
+              </a>
+            </span>
+            <span>
+              <a target="_blank" rel="noopener noreferrer" href="https://ambutrack.herokuapp.com/">
+                <img className="logo" src={require("./AbutrackLogo.png")} alt="Ambutrack Logo"></img></a>
+            </span>
+            <span>
+              <a target="_blank" rel="noopener noreferrer" href="https://julianvanost.github.io/Day-Scheduler/">
+                <img className="logo" src={require("./DayPlannerLogo.png")} alt="Day Planner"></img>
+              </a>
+            </span>
+            <span>
+              <a target="_blank" rel="noopener noreferrer" href="https://cartner-golf.herokuapp.com/">
+                <img className="logo" src={require("./CartnerGolf.png")} alt="Cartner Golf Logo"></img>
+              </a>
+            </span>
           </div>
         </div>
-      </div >
+      </div>
     </main >
   )
 }
