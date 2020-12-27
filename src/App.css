@@ -86,10 +86,13 @@ svg {
   height: 1.5rem;
   width: 1.5rem;
 }
+
 .text-info {
   font-size: 24px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  display: flow-root;
+  margin-bottom: 1rem;
+  color: #ff5a00 !important;
 }
 
 .largerLinks {
