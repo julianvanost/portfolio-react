@@ -42,6 +42,32 @@ const Portfolio = () => {
               Example Work
             </h4>
             <div className="projects">
+              <p className="subHeading">Side Projects & Collaborations</p>
+              <span>
+                <a target="_blank" rel="noopener noreferrer" href="https://julianvanost.github.io/Code-Quiz/">
+                  <img className="logo" src={require("./CodeQuizLogo.png")} alt="Code Quiz"></img>
+                </a>
+              </span>
+              <span>
+                <a target="_blank" rel="noopener noreferrer" href="https://preyx.github.io/bcprj1-api/">
+                  <img className="logo" src={require("./ci-logo.png")} alt="CrypIt Logo"></img>
+                </a>
+              </span>
+              <span>
+                <a target="_blank" rel="noopener noreferrer" href="https://ambutrack.herokuapp.com/">
+                  <img className="logo" src={require("./AbutrackLogo.png")} alt="Ambutrack Logo"></img></a>
+              </span>
+              <span>
+                <a target="_blank" rel="noopener noreferrer" href="https://julianvanost.github.io/Day-Scheduler/">
+                  <img className="logo" src={require("./DayPlannerLogo.png")} alt="Day Planner"></img>
+                </a>
+              </span>
+              <span>
+                <a target="_blank" rel="noopener noreferrer" href="https://cartner-golf.herokuapp.com/">
+                  <img className="logo" src={require("./CartnerGolf.png")} alt="Cartner Golf Logo"></img>
+                </a>
+              </span>
+              <div className="bottom-height"></div>
               <p className="projectList subHeading">Freelance Websites</p>
               <ul>
                 <li><a href="https://www.sycstreetwear.com/" rel="noopener noreferrer" target="_blank">sycstreetwear.com</a> - Show Your Compassion Streetwear</li>
@@ -51,32 +77,7 @@ const Portfolio = () => {
                 <li><a href="https://www.returntoworksolutions.com/julian-van-ost" rel="noopener noreferrer" target="_blank">julian-van-ost</a> - An Alternate Web Portfolio</li>
               </ul>
             </div>
-            <div className="bottom-height"></div>
-            <p className="subHeading">Side Projects & Collaborations</p>
-            <span>
-              <a target="_blank" rel="noopener noreferrer" href="https://julianvanost.github.io/Code-Quiz/">
-                <img className="logo" src={require("./CodeQuizLogo.png")} alt="Code Quiz"></img>
-              </a>
-            </span>
-            <span>
-              <a target="_blank" rel="noopener noreferrer" href="https://preyx.github.io/bcprj1-api/">
-                <img className="logo" src={require("./ci-logo.png")} alt="CrypIt Logo"></img>
-              </a>
-            </span>
-            <span>
-              <a target="_blank" rel="noopener noreferrer" href="https://ambutrack.herokuapp.com/">
-                <img className="logo" src={require("./AbutrackLogo.png")} alt="Ambutrack Logo"></img></a>
-            </span>
-            <span>
-              <a target="_blank" rel="noopener noreferrer" href="https://julianvanost.github.io/Day-Scheduler/">
-                <img className="logo" src={require("./DayPlannerLogo.png")} alt="Day Planner"></img>
-              </a>
-            </span>
-            <span>
-              <a target="_blank" rel="noopener noreferrer" href="https://cartner-golf.herokuapp.com/">
-                <img className="logo" src={require("./CartnerGolf.png")} alt="Cartner Golf Logo"></img>
-              </a>
-            </span>
+
           </div>
         </div>
       </div>
