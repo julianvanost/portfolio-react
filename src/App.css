@@ -1,16 +1,11 @@
+html {
+  overflow: overlay;
+}
+
 body {
   /* background-color:#85888b; */
   background-color: #fdf9ec;
-  /* overflow: scroll; */
 }
-
-.root {
-  overflow: hidden;
-}
-
-/* body {
-  overflow-y: scroll;
-} */
 
 body::-webkit-scrollbar {
   background-color: #555;
@@ -92,9 +87,48 @@ svg {
   width: 1.5rem;
 }
 
+h4 {
+  font-weight: 600;
+}
+
 .icons {
   width: 30px;
   height: 30px;
+}
+
+.aPlus {
+  background-image: url('./views/Home/A_Plus.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  border: none;
+  display: inline-flex;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+  margin-left: 0rem;
+  margin-right: auto;
+  left: 0rem;
+}
+
+.parallaxSliderBackground {
+    background-image: url(/portfolio-react/static/media/A_Plus.a03d4d21.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    border: none;
+    display: inline-flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    margin-left: 0rem;
+    margin-right: auto;
+    left: 0rem;
+    top: 100%;
 }
 
 .projects {
@@ -111,15 +145,14 @@ svg {
 .projectList {
   margin-bottom: -1rem;
 }
-.page-header{
-  margin-top:2rem;
+
+.page-header {
+  margin-top: 2rem;
 }
-.subHeading{
+
+.subHeading {
   font-weight: 600;
   color: rgb(95, 95, 95);
-}
-h4 {
-  font-weight: 600;
 }
 
 .text-info {
@@ -227,7 +260,6 @@ h4 {
   text-align: right !important;
   color: rgb(115 218 255 / 100%) !important;
 }
-
 
 .bg-dark {
   background-color: #004065 !important;

@@ -24,6 +24,7 @@ const Home = () => {
           </div>
         </div>
         <footer>
+          {/* <div className="aPlus" alt=""></div> */}
           <Badges />
         </footer>
       </div>
